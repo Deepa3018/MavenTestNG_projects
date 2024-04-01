@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ddevasenapathy/IdeaProjects/MavenTestNG_projects/src/test/java/First.java">
+        <classes>
+            <class name="First">
+                <methods>
+                    <include name="method1"/>
+                    <include name="method2"/>
+                    <include name="method3"/>
+                 </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ddevasenapathy/IdeaProjects/MavenTestNG_projects/src/test/java/Second.java">
+        <classes>
+            <class name="Second">
+                <methods>
+                    <include name="setup"/>
+                    <include name="scroll_page"/>
+
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ddevasenapathy/IdeaProjects/MavenTestNG_projects/src/test/java/Third.java">
+        <classes>
+            <class name="Third">
+                <methods>
+                    <include name="animal"/>
+                    <include name="vehicle"/>
+                    <include name="iteration"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
